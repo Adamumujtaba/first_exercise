@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:  Calibri;
+}
+/* ----------------General Container------------------ */
+/* Every component is Embedded  inside this container */
+.container{
+    width: 90%;
+    margin:30px auto;
+
+}
+
+
+/* -------------Header------------------ */
+header .container div {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.para{
+    position: absolute;
+    right: 20px;
+    color: #b1b1b1;
+    font-size: 28px;
+}
+.logo{
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-color: #eae9ee;
+    display: inline-block;
+    border-radius: 100px;
+}
+header h3{
+    margin: 10px;
+}
+.address{
+    margin: 20px 0px;
+    width: 200px;
+}
+/* ---------------End of Header Style Content---------- */
+
+
+/* ------------------------Main Container------------- */
+.main{
+    display: flex;
+    margin:40px 0px;
+}
+.main-1{
+    width: 50%; 
+}
+.main-2{
+    width: 25%;
+}
+.main-3{
+    width: 25%;  
+}
+/* ------------------------End  Main Container------------- */
+
+
+
+/* -----------------Price Container-------------- */
+
+.item{
+    color: grey;
+}
+
+.price{
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin: auto;
+}
+.container .price div{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 90%;
+    margin:20px auto;
+}
+.price hr{
+    width: 90%;
+    margin: auto; 
+    border: 1px solid lightgrey;   
+}
+.num{
+    color: #036df5;
+}
+/* ----------------End of price container-------------- */
+
+
+/* ----------------Total Container ------------------- */
+
+.container .total{
+    display: flex;
+    justify-content: space-between;
+    color:grey;
+}
+.total div{
+    width: 200px;
+    margin: 10px;
+}
+.total div:nth-child(2){
+    text-align: right;
+}
+.total h1{
+    color: #036df5;
+    margin:10px 0px;
+}
+
+/* -------------------End of The total container--------- */
+ 
+
+
+
+/* --------------------footer Container---------------- */ 
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+footer a{
+    text-decoration: none;
+    color: #036df5;
+}
+
+footer .edit{
+    color:#036df5;
+}
+footer button{
+    background: none;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    border:2px solid #b4b5b9;
+    color:grey;
+
+}
+footer button:hover{
+    cursor: pointer;
+}
+/* ------------------End of Footer Style --------------- */
